@@ -1,0 +1,10 @@
+
+dictkey={'color':'brown','name':'batman','color':'black'}
+dictkey['color']='dark_blue'
+dictkey[25576]='Muhammad Kamran Javed'
+dictkey['kamran186']=25576
+
+print(dictkey.get('color'))
+print(dictkey.get('kamran186'))
+print(dictkey.get(25576))
+print('kamran186: '+str(dictkey['kamran186']))
